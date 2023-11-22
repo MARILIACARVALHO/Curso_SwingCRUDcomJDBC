@@ -22,8 +22,13 @@ public class FormPrincipal {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FormPrincipal window = new FormPrincipal();
-					window.frame.setVisible(true);
+					/*FormPrincipal window = new FormPrincipal();
+					window.frame.setVisible(true);*/
+					//código PARA QUE O FÓRMULÁRIO SEJA INICIALIZADO NO MEIO DA TELA:
+					FormPrincipal form = new FormPrincipal();
+					form.frame.setLocationRelativeTo(null);
+					form.frame.setVisible(true);
+			
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
