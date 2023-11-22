@@ -1,0 +1,7 @@
+-> Primeiramente, cria-se as classes model (As Entidades do BD)
+-> É preciso manter 2  listas. Criar 2 listas estáticas, uma de Cidade e outra de Pessoa -> Classe Dados
+-> Implementar as classes DAO - DATA ACESS OBJECT (ACESSO AO DADOS DO OBJETO) - classes de acesso a Dados - se mudar o banco muda somente elas.
+	DAO_Cidade - haverá alguns métodos:
+				1 - para recuperar os registros - GET (Read)
+				2 - para Salvar uma nova cidade - POST (Create)
+				3 - para remover - DELETE 
